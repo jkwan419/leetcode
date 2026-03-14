@@ -5,7 +5,7 @@ class Solution:
 
         for i, v in enumerate(nums):
             if target - v in diff:
-                res.append(diff[target-v])
+                res.append(diff[target - v])
                 res.append(i)
 
             diff[v] = i
